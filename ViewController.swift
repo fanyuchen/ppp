@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class  : UIViewController {
 
     @IBOutlet weak var no1: UIButton!
     override func viewDidLoad() {
@@ -20,9 +20,3 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func no1(sender: AnyObject) {
-            print("hehe")
-    }
-}
-
